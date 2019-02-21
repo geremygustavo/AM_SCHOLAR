@@ -23,5 +23,6 @@
 hs_err_pid*
 
 # Custom
-envitonment.yml
+environment.yml
 *.pem
+.vagrant
