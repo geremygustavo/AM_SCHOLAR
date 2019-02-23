@@ -7,7 +7,6 @@ VAGRANTFILE_API_VERSION = '2'
 
 # Read YAML file with VM details (box, CPU, and RAM)
 machines = YAML.load_file(File.join(File.dirname(__FILE__),'environment.yml'))
-puts machines
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
  config.ssh.username = 'ubuntu'
  config.ssh.private_key_path = 'win-abel2.pem'
@@ -22,7 +21,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
    os.keypair_name = machines['KEY_PAIR_NAME']
    os.image = machines['IMAGE']
  end
- config.vm.define 'linux-server-1' do |s|
+ config.vm.define 'jenkins_server' do |s|
       s.vm.provision 'docker'
       s.vm.provision 'docker_compose', compose_version:'1.23.2'
       s.vm.provision "shell", path: "install_jenkins.sh"
