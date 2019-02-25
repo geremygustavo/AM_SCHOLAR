@@ -27,7 +27,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       s.vm.provision "shell", path: "install_jenkins.sh"
       s.vm.provision 'docker_compose', compose_version:'1.23.2',
         yml: "/home/ubuntu/docker/docker-compose.yml",
-        rebuild: false,
         run: "always"
       s.vm.provider :openstack do |os, override|
        os.server_name = 'AT08-AGMC-1'
