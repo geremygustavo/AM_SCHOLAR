@@ -11,7 +11,7 @@
 .mtj.tmp/
 
 # Package Files #
-!gradle-jenkins-at08-task10/**/gradle-wrapper.jar
+!gradle-java-at08-task10/gradle/wrapper/gradle-wrapper.jar
 *.jar
 *.war
 *.nar
