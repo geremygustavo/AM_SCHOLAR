@@ -11,8 +11,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh './gradle-java-at08-task10/gradlew check -p gradle-java-at08'
-                sh './gradle-java-at08-task10/gradlew jacocoTestReport -p gradle-java-at08'
+                sh './gradle-java-at08-task10/gradlew check -p gradle-java-at08-task10'
+                sh './gradle-java-at08-task10/gradlew jacocoTestReport -p gradle-java-at08-task10'
             }
         }
         stage('Deploy') {
