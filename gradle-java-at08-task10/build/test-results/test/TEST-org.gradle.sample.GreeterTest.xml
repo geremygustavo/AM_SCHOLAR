@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gradle.sample.GreeterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-02-27T20:12:24" hostname="at08-agmc" time="0.034">
+  <properties/>
+  <testcase name="test10" classname="org.gradle.sample.GreeterTest" time="0.029"/>
+  <testcase name="test11" classname="org.gradle.sample.GreeterTest" time="0.002"/>
+  <testcase name="test1" classname="org.gradle.sample.GreeterTest" time="0.001"/>
+  <testcase name="test2" classname="org.gradle.sample.GreeterTest" time="0.0"/>
+  <testcase name="test3" classname="org.gradle.sample.GreeterTest" time="0.001"/>
+  <testcase name="test4" classname="org.gradle.sample.GreeterTest" time="0.0"/>
+  <testcase name="test5" classname="org.gradle.sample.GreeterTest" time="0.001"/>
+  <testcase name="test7" classname="org.gradle.sample.GreeterTest" time="0.0"/>
+  <testcase name="test9" classname="org.gradle.sample.GreeterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (root).
+log4j:WARN Please initialize the log4j system properly.
+]]></system-err>
+</testsuite>
