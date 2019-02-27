@@ -11,6 +11,7 @@
 .mtj.tmp/
 
 # Package Files #
+!gradle-jenkins-at08-task10/**/gradle-wrapper.jar
 *.jar
 *.war
 *.nar
@@ -26,4 +27,11 @@ hs_err_pid*
 environment.yml
 *.pem
 .vagrant
-
+.gradle
+.idea
+.settings
+.classpath
+.project
+gradle-5.2.1
+bin
+build
